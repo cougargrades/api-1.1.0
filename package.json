@@ -31,7 +31,8 @@
     "express-validator": "^6.6.1",
     "firebase-admin": "^9.0.0",
     "firebase-functions": "^3.11.0",
-    "get-routes": "^2.0.6"
+    "get-routes": "^2.0.6",
+    "tsoa": "^3.2.1"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.0",

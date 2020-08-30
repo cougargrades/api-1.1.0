@@ -9,7 +9,7 @@ export const API_PREFIX = 'api';
 // see: https://stackoverflow.com/a/49216233
 export function rewriteFirebaseHosting(
   req: Request,
-  res: Response,
+  _res: Response,
   next: NextFunction,
 ) {
   if (req.url.indexOf(`/${API_PREFIX}/`) === 0) {

@@ -71,6 +71,6 @@ app.put('/private/GradeDistributionCSVRow', privateController.uploadRecord);
 app.post('/private/Patchfile', privateController.uploadPatchFile);
 app.get('/private/tokens/self', privateController.getSelfToken);
 
-app.get('/', (req: Request, res: Response) => res.json(getRoutes(app)));
+app.get('/', (_req: Request, res: Response) => res.json(getRoutes(app)));
 
 export default app;

@@ -2,18 +2,26 @@
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
     "sourceMap": true,
-    "strict": true,
-    "target": "es2017",
+    "target": "es6",
     "outDir": "dist",
     "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "*"
-      ]
-    }
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "src/**/*"
