@@ -73,4 +73,9 @@ app.get('/private/tokens/self', privateController.getSelfToken);
 
 app.get('/', (_req: Request, res: Response) => res.json(getRoutes(app)));
 
+// Tsoa stuff
+import { RegisterRoutes } from './#generated/routes';
+app.get('/swagger.json', async (_, res: Response) => res.json((await import('./#generated/swagger.json')).default));
+RegisterRoutes(app);
+
 export default app;

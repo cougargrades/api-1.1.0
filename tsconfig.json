@@ -3,7 +3,7 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "sourceMap": true,
-    "target": "es6",
+    "target": "es2017",
     "outDir": "dist",
     "baseUrl": ".",
     "strict": true,
@@ -21,12 +21,13 @@
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
   },
   "include": [
     "src/**/*"
   ],
   "exclude": [
-    "node_modules", "dist"
+    "node_modules", "dist", "src/#generated/*"
   ]
 }

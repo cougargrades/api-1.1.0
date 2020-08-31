@@ -1,0 +1,4 @@
+{
+  "ext": "js,mjs,json,ts",
+  "ignore": "src/#generated/*"
+}

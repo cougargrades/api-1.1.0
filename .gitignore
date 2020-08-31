@@ -155,3 +155,5 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 .firestore-data/
+src/#generated/*
+!src/#generated/emptyfile
